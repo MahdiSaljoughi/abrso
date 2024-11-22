@@ -1,0 +1,880 @@
+{
+  "car_tracker_software": [
+    {
+      "id": 0,
+      "title": "داشبورد‌‌‌ها",
+      "src": "/image/car-tracker/software/1.png",
+      "src_mobile": "/image/car-tracker/software/1-mobile.png",
+      "alt": "داشبورد‌‌‌ها",
+      "content": [
+        {
+          "id": 0,
+          "title": "سرعت خودرو",
+          "icon": "i-material-symbols-light-speed-rounded"
+        },
+        {
+          "id": 1,
+          "title": " وضعیت آنتن دهی",
+          "icon": "i-pepicons-pop-wifi-circle-filled"
+        },
+        {
+          "id": 2,
+          "title": "مشاهده موقعیت زنده",
+          "icon": "i-tabler-gps-filled"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "هشدار‌ها",
+      "src": "/image/car-tracker/software/2.png",
+      "src_mobile": "/image/car-tracker/software/2-mobile.png",
+      "alt": "هشدار‌ها",
+      "content": [
+        {
+          "id": 0,
+          "title": "کاهش ولتاژ باطری خودرو",
+          "icon": "i-icon-park-solid-battery-tips"
+        },
+        {
+          "id": 1,
+          "title": "قطع سیگنال سیم کارت",
+          "icon": "i-mdi-wifi-alert"
+        },
+        {
+          "id": 2,
+          "title": "خروج از محدوده تعیین شده",
+          "icon": "i-ph-warning-fill"
+        },
+        {
+          "id": 3,
+          "title": "سرعت غیر مجاز",
+          "icon": "i-material-symbols-light-speed-rounded"
+        },
+        {
+          "id": 4,
+          "title": "کار درجا",
+          "icon": "i-iconoir-repeat"
+        },
+        {
+          "id": 5,
+          "title": "ورود به محدود تعیین شده",
+          "icon": "i-hugeicons-location-share-01"
+        },
+        {
+          "id": 6,
+          "title": "قطع سیگنال ماهواره",
+          "icon": "i-hugeicons-satellite"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "عملکرد",
+      "src": "/image/car-tracker/software/3.png",
+      "src_mobile": "/image/car-tracker/software/3-mobile.png",
+      "alt": "عملکرد",
+      "content": [
+        {
+          "id": 0,
+          "title": "گزارش سفرها",
+          "icon": "i-ph-car-fill"
+        },
+        {
+          "id": 1,
+          "title": "مسافت طی شده",
+          "icon": "i-game-icons-path-distance"
+        },
+        {
+          "id": 2,
+          "title": "تعداد سفرها",
+          "icon": "i-mingcute-steering-wheel-fill"
+        },
+        {
+          "id": 4,
+          "title": "زمان رانندگی",
+          "icon": "i-material-symbols-clock-loader-60"
+        },
+        {
+          "id": 5,
+          "title": "زمان رانندگی با سرعت غیر مجاز",
+          "icon": "i-bi-speedometer2"
+        },
+        {
+          "id": 6,
+          "title": "پیمایش روزانه ",
+          "icon": "i-basil-navigation-outline"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "تعمیر و نگهداری",
+      "src": "/image/car-tracker/software/4.png",
+      "src_mobile": "/image/car-tracker/software/4-mobile.png",
+      "alt": "تعمیر و نگهداری",
+      "content": [
+        {
+          "id": 0,
+          "title": "روغن موتور",
+          "icon": "i-mdi-oil"
+        },
+        {
+          "id": 1,
+          "title": "باطری",
+          "icon": "i-hugeicons-automotive-battery-02"
+        },
+        {
+          "id": 2,
+          "title": "جابه‌جایی و تعویض لاستیک",
+          "icon": "i-ph-tire"
+        },
+        {
+          "id": 3,
+          "title": "تسمه تایم",
+          "icon": "i-carbon-timing-belt"
+        },
+        {
+          "id": 4,
+          "title": "فیلتر روغن",
+          "icon": "i-oui-logstash-filter"
+        },
+        {
+          "id": 5,
+          "title": "چکاپ",
+          "icon": "i-ph-engine-bold"
+        },
+        {
+          "id": 6,
+          "title": "یادآوری تعمیر",
+          "icon": "i-carbon-tools"
+        }
+      ]
+    }
+  ],
+  "car_tracker_hardware": [
+    {
+      "id": 0,
+      "contents": [
+        {
+          "id": 0,
+          "title": "ابعاد",
+          "description": "۹۸*۵۲*۱۵"
+        },
+        {
+          "id": 1,
+          "title": "وزن",
+          "description": "۱۰۰ گرم"
+        },
+        {
+          "id": 2,
+          "title": "ولتاژ ورودی",
+          "description": "۸ تا ۳۵ ولت"
+        },
+        {
+          "id": 3,
+          "title": "باطری داخلی",
+          "description": "۳۵۰ میلی‌آمپر"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "contents": [
+        {
+          "id": 0,
+          "title": "جریان مصرفی",
+          "description": "۶۰ میلی‌آمپر"
+        },
+        {
+          "id": 1,
+          "title": "آنتن GSM /GPS",
+          "description": "داخلی"
+        },
+        {
+          "id": 2,
+          "title": "شبکه ارتباطی",
+          "description": "۲G"
+        },
+        {
+          "id": 3,
+          "title": "دمای عملیاتی",
+          "description": "۲۵°- تا ۸۵°C"
+        }
+      ]
+    }
+  ],
+  "about": {
+    "poster": [
+      {
+        "id": 1,
+        "image": "/image/about-us/01.png"
+      },
+      {
+        "id": 2,
+        "image": "/image/about-us/02.png"
+      },
+      {
+        "id": 3,
+        "image": "/image/about-us/03.png"
+      },
+      {
+        "id": 4,
+        "image": "/image/about-us/04.png"
+      },
+      {
+        "id": 5,
+        "image": "/image/about-us/01.png"
+      },
+      {
+        "id": 6,
+        "image": "/image/about-us/02.png"
+      },
+      {
+        "id": 7,
+        "image": "/image/about-us/03.png"
+      },
+      {
+        "id": 8,
+        "image": "/image/about-us/04.png"
+      }
+    ],
+    "titleJobs": [
+      {
+        "id": 1,
+        "title": "همه",
+        "jobs": [
+          {
+            "title": "تحلیلگر و طراح محصول"
+          },
+          {
+            "title": "اسکرام مستر"
+          },
+          {
+            "title": "توسعه‌دهنده بک‌اند"
+          },
+          {
+            "title": "توسعه‌دهنده فرانت‌اند"
+          },
+          {
+            "title": "متخصص دواپس"
+          },
+          {
+            "title": "متخصص تست نرم‌افزار"
+          },
+          {
+            "title": "طراح رابط کاربری"
+          },
+          {
+            "title": "مهندس ارشد داده و تحلیل"
+          },
+          {
+            "title": "مهندس هوش‌مصنوعی"
+          },
+          {
+            "title": "مهندس شبکه"
+          },
+          {
+            "title": "مدیر محصول"
+          },
+          {
+            "title": "مهندسی سخت‌افزار"
+          },
+          {
+            "title": "متخصص سیستم‌های امبدد"
+          },
+          {
+            "title": "متخصص مدارات مخابراتی"
+          },
+          {
+            "title": "طراح مدارات آنالوگ و دیجیتال"
+          },
+          {
+            "title": "کارشناس بازاریابی سوشال مدیا"
+          },
+          {
+            "title": "کارشناس بازاریابی محصول"
+          },
+          {
+            "title": "کارشناس بازاریابی همکار"
+          },
+          {
+            "title": "کارشناس ارتباطات بازاریابی"
+          },
+          {
+            "title": "کارشناس تحقیقات بازاریابی"
+          },
+          {
+            "title": "کارشناس بازاریابی دیجیتال"
+          },
+          {
+            "title": "کارشناس بازاریابی محتوا"
+          },
+          {
+            "title": "کارشناس بازاریابی برند"
+          },
+          {
+            "title": "طراح گرافیک"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "نرم‌افزار",
+        "jobs": [
+          {
+            "title": "تحلیلگر و طراح محصول"
+          },
+          {
+            "title": "اسکرام مستر"
+          },
+          {
+            "title": "توسعه‌دهنده بک‌اند"
+          },
+          {
+            "title": "توسعه‌دهنده فرانت‌اند"
+          },
+          {
+            "title": "متخصص دواپس"
+          },
+          {
+            "title": "متخصص تست نرم‌افزار"
+          },
+          {
+            "title": "طراح رابط کاربری"
+          },
+          {
+            "title": "مهندس ارشد داده و تحلیل"
+          },
+          {
+            "title": "مهندس هوش‌مصنوعی"
+          },
+          {
+            "title": "مهندس شبکه"
+          },
+          {
+            "title": "مدیر محصول"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "سخت‌افزار",
+        "jobs": [
+          {
+            "title": "مهندسی سخت‌افزار"
+          },
+          {
+            "title": "متخصص سیستم‌های امبدد"
+          },
+          {
+            "title": "متخصص مدارات مخابراتی"
+          },
+          {
+            "title": "طراح مدارات آنالوگ و دیجیتال"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "مارکتینگ",
+        "jobs": [
+          {
+            "title": "کارشناس بازاریابی سوشال مدیا"
+          },
+          {
+            "title": "کارشناس بازاریابی محصول"
+          },
+          {
+            "title": "کارشناس بازاریابی همکار"
+          },
+          {
+            "title": "کارشناس ارتباطات بازاریابی"
+          },
+          {
+            "title": "کارشناس تحقیقات بازاریابی"
+          },
+          {
+            "title": "کارشناس بازاریابی دیجیتال"
+          },
+          {
+            "title": "کارشناس بازاریابی محتوا"
+          },
+          {
+            "title": "کارشناس بازاریابی برند"
+          },
+          {
+            "title": "طراح گرافیک"
+          }
+        ]
+      }
+    ]
+  },
+  "features_new": [
+    {
+      "id": 1,
+      "title": "اطلاعات لحظه ای",
+      "contents": [
+        {
+          "id": 1,
+          "icon": "i-material-symbols-light-speed-rounded",
+          "title": "سرعت خودرو"
+        },
+        {
+          "id": 2,
+          "icon": "i-pepicons-pop-wifi-circle-filled",
+          "title": "وضعیت آنتن دهی"
+        },
+        {
+          "id": 3,
+          "icon": "i-tabler-gps-filled",
+          "title": "مشاهده موقعیت زنده"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "هشدار اتفاقات",
+      "contents": [
+        {
+          "id": 1,
+          "icon": "i-icon-park-solid-battery-tips",
+          "title": "کاهش ولتاژ باطری خودرو"
+        },
+        {
+          "id": 2,
+          "icon": "i-mdi-wifi-alert",
+          "title": "قطع سیگنال سیم کارت"
+        },
+        {
+          "id": 3,
+          "icon": "i-ph-warning-fill",
+          "title": "خروج از محدوده تعیین شده"
+        },
+        {
+          "id": 4,
+          "icon": "i-material-symbols-light-speed-rounded",
+          "title": "سرعت غیر مجاز"
+        },
+        {
+          "id": 5,
+          "icon": "i-iconoir-repeat",
+          "title": "کار درجا"
+        },
+        {
+          "id": 6,
+          "icon": "i-hugeicons-location-share-01",
+          "title": "ورود به محدود تعیین شده"
+        },
+        {
+          "id": 7,
+          "icon": "i-hugeicons-satellite",
+          "title": "قطع سیگنال ماهواره"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "گزارش‌گیری",
+      "contents": [
+        {
+          "id": 1,
+          "icon": "i-ph-car-fill",
+          "title": "گزارش سفرها"
+        },
+        {
+          "id": 2,
+          "icon": "i-game-icons-path-distance",
+          "title": "مسافت طی شده"
+        },
+        {
+          "id": 3,
+          "icon": "i-mingcute-steering-wheel-fill",
+          "title": "تعداد سفرها"
+        },
+        {
+          "id": 4,
+          "icon": "i-material-symbols-clock-loader-60",
+          "title": "زمان رانندگی"
+        },
+        {
+          "id": 5,
+          "icon": "i-bi-speedometer2",
+          "title": "زمان رانندگی با سرعت غیر مجاز"
+        },
+        {
+          "id": 6,
+          "icon": "i-basil-navigation-outline",
+          "title": "پیمایش روزانه"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "تعمیرات و نگهداری",
+      "contents": [
+        {
+          "id": 1,
+          "icon": "i-mdi-oil",
+          "title": "روغن موتور"
+        },
+        {
+          "id": 2,
+          "icon": "i-hugeicons-automotive-battery-02",
+          "title": "باطری"
+        },
+        {
+          "id": 3,
+          "icon": "i-ph-tire",
+          "title": "جابه‌جایی و تعویض لاستیک"
+        },
+        {
+          "id": 4,
+          "icon": "i-carbon-timing-belt",
+          "title": "تسمه تایم"
+        },
+        {
+          "id": 5,
+          "icon": "i-oui-logstash-filter",
+          "title": "فیلتر روغن"
+        },
+        {
+          "id": 6,
+          "icon": "i-ph-engine-bold",
+          "title": "چکاپ"
+        },
+        {
+          "id": 7,
+          "icon": "i-carbon-tools",
+          "title": "یادآوری تعمیر"
+        }
+      ]
+    }
+  ],
+  "case_study": [
+    {
+      "id": 1,
+      "image": "/image/study/st-1.png",
+      "title": "خانواده‌ای با دو خودرو",
+      "matn": "چالش: نگرانی در مورد امنیت خودروها و نیاز به نظارت بر رانندگان جوان خانواده. راه‌حل: نصب سیستم ردیاب خودرو برای ردیابی دقیق و ارائه گزارش‌های فعالیت. نتیجه: افزایش امنیت خودروها و اطمینان خاطر والدین از رفتار رانندگی فرزندان."
+    },
+    {
+      "id": 2,
+      "image": "/image/study/st-2.png",
+      "title": "علاقه‌مندان به خودروهای کلاسیک",
+      "matn": " چالش: نگرانی در مورد امنیت خودروهای کلاسیک و با ارزش.راه‌حل: استفاده از سیستم ردیاب خودرو برای تامین امنیت و جلوگیری از سرقت.نتیجه: کاهش نگرانی‌ها و افزایش امنیت برای صاحبان خودروهای کلاسیک."
+    },
+    {
+      "id": 3,
+      "image": "/image/study/st-3.png",
+      "title": "فردی با شغل مسافرتی",
+      "matn": "چالش: نیاز به نظارت بر خودرو در طول سفرهای کاری طولانی.راه‌حل: استفاده از سیستم ردیاب برای رصد مداوم وضعیت خودرو و موقعیت آن.نتیجه: افزایش امنیت خودرو در طول غیاب، کاهش استرس مربوط به سرقت یا آسیب‌دیدگی خودرو."
+    },
+    {
+      "id": 4,
+      "image": "/image/study/st-4.png",
+      "title": "شرکت‌های کرایه خودرو",
+      "matn": "چالش: نگرانی از استفاده نادرست مشتریان از خودروهای کرایه‌ای.راه‌حل: نصب سیستم ردیاب برای نظارت بر رفتار رانندگی و محدودیت‌های جغرافیایی.نتیجه: کنترل بهتر بر رفتار استفاده از خودروها، پیشگیری از استفاده‌های نامناسب و کاهش خطرات."
+    },
+    {
+      "id": 5,
+      "image": "/image/study/st-5.png",
+      "title": "والدین نگران امنیت فرزندان نوجوان",
+      "matn": "چالش: دغدغه‌های والدین در مورد امنیت و محل قرارگیری فرزندانشان هنگام رانندگی.راه‌حل: استفاده از سیستم ردیابی خودرو برای رصد موقعیت و سرعت خودرو.نتیجه: افزایش آرامش خاطر والدین، اطمینان از امنیت فرزندان و بهبود تصمیم‌گیری‌های ایمنی."
+    },
+    {
+      "id": 6,
+      "image": "/image/study/st-6.png",
+      "title": "صاحبان خودروهای لوکس و گران‌قیمت",
+      "matn": "چالش: نگرانی مداوم از سرقت و آسیب‌دیدگی خودروهای لوکس.راه‌حل: تجهیز خودرو با سیستم ردیابی پیشرفته برای حفاظت و امنیت بالا.نتیجه: کاهش نگرانی‌ها، بهبود امنیت خودرو و افزایش ارزش بازفروش."
+    }
+  ],
+  "abilities": [
+    [
+      {
+        "title": "مدیریت کاربران",
+        "icon": "/people.svg"
+      },
+      {
+        "title": "مدیریت اعزام به ماموریت",
+        "icon": "/trend-up.svg"
+      }
+    ],
+    [
+      {
+        "title": " تخصیص ماموریت ",
+        "icon": "/routing-2.svg"
+      },
+      {
+        "title": "وضعیت ماموریت",
+        "icon": "/location.svg"
+      }
+    ],
+    [
+      {
+        "title": " شیفت بندی ",
+        "icon": "/clock.svg"
+      },
+      {
+        "title": " تعریف پویای الگوی زمانی",
+        "icon": "/calendar-edit.svg"
+      }
+    ],
+    [
+      {
+        "title": "تعریف پیمانگار",
+        "icon": "/user-add.svg"
+      },
+      {
+        "title": "مدیریت رفتار راننده",
+        "icon": "/user-minus.svg"
+      }
+    ],
+    [
+      {
+        "title": "طبقه بندی اطلاعات",
+        "icon": "/scroll.svg"
+      },
+      {
+        "title": "سرعت لحظه ای",
+        "icon": "/smart-car.svg"
+      }
+    ],
+    [
+      {
+        "title": "مسافت طی‌شده ",
+        "icon": "/routing-2.svg"
+      },
+      {
+        "title": "ترمز‌های شدید ",
+        "icon": "/smart-car.svg"
+      }
+    ],
+    [
+      {
+        "title": "گردش‌های شدید ",
+        "icon": "/smart-car.svg"
+      },
+      {
+        "title": "تعریف مسیر های بهینه ",
+        "icon": "/arrow-square.svg"
+      }
+    ],
+    [
+      {
+        "title": "مشاهده دمای کابین ",
+        "icon": "/setting-2.svg"
+      },
+      {
+        "title": "کنترل زمان ورود و خروج ",
+        "icon": "/clock.svg"
+      }
+    ],
+    [
+      {
+        "title": "شناسایی افراد ",
+        "icon": "/user-search.svg"
+      },
+      {
+        "title": "بررسی رفتار راننده ",
+        "icon": "/user-minus.svg"
+      }
+    ],
+    [
+      {
+        "title": "مدت زمان کارکرد درجا ",
+        "icon": "/timer-1.svg"
+      },
+      {
+        "title": "سوخت مصرفی ",
+        "icon": "/gas-station.svg"
+      }
+    ],
+    [
+      {
+        "title": "تخلف از سرعت مجاز ",
+        "icon": "/driving.svg"
+      },
+      {
+        "title": "تعریف گاراژ ",
+        "icon": "/house.svg"
+      }
+    ],
+    [
+      {
+        "title": "تعریف زمان بارگیری و تخلیه ",
+        "icon": "/calendar-edit.svg"
+      },
+      {
+        "title": "تغییرات ناگهانی دما محموله ",
+        "icon": "/snow.svg"
+      }
+    ],
+    [
+      {
+        "title": "تقویم سرویس‌ها ",
+        "icon": "/calendar.svg"
+      },
+      {
+        "title": "محل‌های سرویس‌دهی ",
+        "icon": "/setting-2.svg"
+      }
+    ],
+    [
+      {
+        "title": "نمودار سلامت باتری ",
+        "icon": "/diagram.svg"
+      },
+      {
+        "title": "عمر لاستیک ",
+        "icon": "/timer.svg"
+      }
+    ]
+  ],
+  "footer": {
+    "contact_us": "ارتباط با ما",
+    "address": "کرمان، میدان قرنی، ساختمان پدر، واحد ۳۰۱",
+    "powered_by_ava": " قدرت گرفته از آواپرداز",
+    "tel": "03491090485",
+    "email": "info@abrso.ir"
+  },
+  "social_media": [
+    {
+      "name": "linkedin",
+      "address": "https://www.linkedin.com/abrso.ir",
+      "width": "",
+      "height": ""
+    },
+    {
+      "name": "instagram",
+      "address": "https://www.instagram/abrso.ir",
+      "svg": "dqde",
+      "width": "30",
+      "height": ""
+    },
+    {
+      "name": "facebook",
+      "address": "https://www.facebook.com/abrso.ir",
+      "width": "8",
+      "height": "15",
+      "svg": ""
+    },
+    {
+      "name": "twitter",
+      "address": "https://www.twitter.com/abrso_ir",
+      "width": "9",
+      "height": "15"
+    }
+  ],
+  "customers": [
+    {
+      "title": "حجت راه",
+      "carier": "شرکت بزرگ مقیاس حمل و نقل",
+      "description": "شرکت حمل و نقل کالا و فرآورده های نفتی حجت راه با بیش از 30 سال فعالیت در سامانه حمل و نقل ایران",
+      "image": "/test.png",
+      "address": "/hojat-rah.svg"
+    },
+    {
+      "title": "مبیت",
+      "carier": "فروشگاه اینترنتی کالای دیجیتال ",
+      "description": "یک سیستم چند فروشگاهی که از سال 1393 و تحت عنوان فروشگاه اینترنتی کالای دیجیتال فعالیت دارد",
+      "image": "/test.png",
+      "address": "/mobit.svg"
+    },
+    {
+      "title": "ترابار",
+      "carier": "بستری آنلاین ارائه خدمات حمل و نقل جاده‌ای",
+      "description": "سامانه جامع صنعت حمل و نقل، با بهره گیری از زیرساخت های فناوری اطلاعات و ارتباطات به شرکت های حوزه حمل و نقل خدمات گوناگونی را ارائه میکند.",
+      "image": "/test.png",
+      "address": "/terabar.png"
+    },
+    {
+      "title": "زودکس",
+      "carier": "سامانه سفارش آنلاین غذا",
+      "description": " سامانه سفارش آنلاین زودکس، مجموعه ای بی نظیر از بهترین رستوران ها و کافه ها را گرد هم آورده است تا راحت ترین و سریع ترین خرید آنلاین رو تجربه کنید.",
+      "image": "/test.png",
+      "address": "/zoodex.png"
+    }
+  ],
+  "application": [
+    {
+      "mainTitle": "سخت افزار  اختصاصی",
+      "items": [
+        {
+          "title": "عملکرد بهینه ",
+          "subTitle": "سخت افزار و نرم افزار یکپارچه",
+          "icon": "i-material-symbols-trending-up-rounded"
+        },
+        {
+          "title": " ذخیره اطلاعات",
+          "subTitle": " ذخیره سازی آفلاین اطلاعات  ",
+          "icon": "i-line-md-cloud-loop"
+        },
+        {
+          "title": " دقت بالا",
+          "subTitle": "دقت مکانی ۳ تا ۵ متر",
+          "icon": "i-mdi-map-marker-radius"
+        },
+        {
+          "title": "کنترل استارت ",
+          "subTitle": "  کنترل روشن و خاموش شدن خودرو  ",
+          "icon": "i-solar-remote-controller-bold"
+        }
+      ]
+    },
+    {
+      "mainTitle": "اپلیکیشن  اختصاصی",
+      "items": [
+        {
+          "title": "وضعیت لحظه ای",
+          "subTitle": "مشاهده سرعت و اطلاعات لحظه ای",
+          "icon": "i-solar-home-wifi-angle-bold"
+        },
+        {
+          "title": "گزارشات سفرها ",
+          "subTitle": "گزارشگیری از سفرهای طی شده",
+          "icon": "i-iconoir-reports-solid"
+        },
+        {
+          "title": "تعمیر و نگهداری ",
+          "subTitle": "تقویم سرویس های پیش رو",
+          "icon": "i-solar-settings-bold"
+        },
+        {
+          "title": "ذخیره سازی ",
+          "subTitle": "ذخیره سازی نامحدود اطلاعات",
+          "icon": "i-solar-download-square-bold"
+        }
+      ]
+    },
+    {
+      "mainTitle": "خدمات پس از فروش",
+      "items": [
+        {
+          "title": "یک سال گارارنتی",
+          "subTitle": "ضمانت کیفیت با گارانتی ۱ ساله",
+          "icon": "i-solar-medal-ribbon-star-bold"
+        },
+        {
+          "title": "پشتیبانی 24/7",
+          "subTitle": "دسترسی شبانه‌روزی به پشتیبانی",
+          "icon": "i-ic-baseline-support-agent"
+        },
+        {
+          "title": "به‌روزرسانی‌های منظم",
+          "subTitle": "آپدیت‌های منظم و مستمر",
+          "icon": "i-solar-refresh-square-bold"
+        },
+        {
+          "title": "بازخورد مشتری و بهبود مستمر",
+          "subTitle": "شنیدن صدای مشتریان جهت بهینه‌سازی",
+          "icon": "i-material-symbols-kid-star"
+        }
+      ]
+    }
+  ],
+  "copyRight": "تمامی محتوای قرار داده شده با احترام متعلق به راهکارصنعت آواپرداز است.",
+  "form": {
+    "errorMessage": "خطایی در ثبت اطلاعات پیش آمده دوباره امتحان کنید."
+  }
+}

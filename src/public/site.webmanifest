@@ -1,0 +1,22 @@
+{
+  "name": "Abrso",
+  "short_name": "Abrso",
+  "display": "standalone",
+  "orientation": "portrait",
+  "start_url": ".",
+  "lang": "fa-IR",
+  "description": "ابرسو پلتفرم ردیاب خودرو",
+  "icons": [
+    {
+      "src": "/android-chrome.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/splash-screen.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

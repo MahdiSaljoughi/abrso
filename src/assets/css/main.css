@@ -1,0 +1,317 @@
+* {
+  font-family: 'Yekan';
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.word-space-xs {
+  word-spacing: 2px;
+}
+
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-none-body {
+  overflow: hidden;
+}
+
+.overflow-img {
+  overflow-x: hidden;
+}
+
+.base-18 {
+  font-size: 18px;
+}
+
+p {
+  text-align: justify;
+}
+
+.circle-gradient {
+  border-radius: 50%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -0%;
+  top: 7rem;
+  filter: blur(60px);
+}
+
+@media (min-width: 1280px) {
+  .circle-gradient {
+    border-radius: 50%;
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    left: -7rem;
+    top: 10rem;
+    filter: blur(60px);
+  }
+
+  .circle-gradient-2 {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    right: 10%;
+    position: absolute;
+    top: 10%;
+    background: #d9d9d9;
+    opacity: 0.33;
+    filter: blur(150px);
+  }
+}
+
+.center-element {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+/* S W I P E R */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.swiper-customer .swiper-wrapper .swiper-slide:not(.swiper-slide-active) {
+  filter: blur(2px);
+}
+
+.swiper-team .swiper-wrapper .swiper-slide:not(.swiper-slide-active) img {
+  height: 286px !important;
+  width: 209px !important;
+}
+
+.swiper-team .swiper-wrapper .swiper-slide {
+  height: 450px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+/* circle style for swiper arrow with navigation */
+.is-circle:not(.swiper-button-disabled),
+.is-circle:not(.swiper-button-disabled) {
+  border-radius: 50%;
+  border: 2px solid #333647;
+  width: 48px;
+  height: 48px;
+}
+
+/* desktop arrow */
+@media (min-width: 768px) {
+  .swiper-button-prev-ability {
+    right: unset !important;
+    left: 0 !important;
+    top: unset !important;
+    bottom: 0 !important;
+  }
+
+  .swiper-button-next-ability {
+    right: unset !important;
+    left: 60px !important;
+    top: unset !important;
+    bottom: 0 !important;
+  }
+}
+
+.swiper-button-prev-customer {
+  right: unset !important;
+  left: calc(50% - 60px) !important;
+  top: unset !important;
+  bottom: 0 !important;
+}
+
+.swiper-button-next-customer {
+  right: unset !important;
+  right: calc(50% - 60px) !important;
+  top: unset !important;
+  bottom: 0 !important;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .swiper-button-next-ability {
+    right: calc(50% - 53px) !important;
+    top: unset !important;
+    bottom: 0 !important;
+  }
+
+  .swiper-button-prev-ability {
+    right: calc(50% + 5px) !important;
+    top: unset !important;
+    bottom: 0 !important;
+  }
+}
+
+/* mobile */
+.is-circle::after {
+  content: '' !important;
+}
+
+/* swiper application pagination vertical */
+@media (min-width: 768px) {
+  .swiper-pagination {
+    /* padding-top: 3%; */
+    /* height: 100% !important; */
+    top: 0;
+    right: 0 !important;
+    width: 12px !important;
+    /* background-color: red; */
+  }
+}
+
+/* .swiper-pagination {
+  top: 20% !important;
+  padding-top: 15px;
+  width: 12px !important;
+} */
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+}
+
+.swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+  transform: scale(0.6) !important;
+  background: gray !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: transparent !important;
+  border: 1px solid;
+}
+
+.swiper-ability {
+  margin: 0 auto;
+}
+
+.border-blue-gradient-parent {
+  position: relative;
+  padding: 1px;
+  border-radius: 4px;
+}
+
+.border-blue-gradient {
+  box-shadow: inset 0px 2px 26px rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+
+.border-gradient-gray {
+  backdrop-filter: blur(11px);
+  border-radius: 10px;
+}
+
+.bg-gradient-gray {
+  position: relative;
+  box-sizing: border-box;
+  background-clip: padding-box;
+  border: solid 1px transparent;
+  border-radius: 10px;
+}
+
+.bg-gradient-gray::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(to right, #ffffff3b, transparent);
+}
+
+/* Webfont: Yekan */
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_01_hairline.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_02_thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_03_light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_04_regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_05_medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_06_bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_07_heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('assets/fonts/yekan_bakh_en_08_fat.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  font-display: auto;
+}
